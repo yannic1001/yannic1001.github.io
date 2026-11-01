@@ -29,16 +29,6 @@
 </script>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <defs>
-    <symbol id="i-doc" viewBox="0 0 32 32"><path d="M8 3.5h11.5L25 9v19.5H8z M19.5 3.5V9H25" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
-    <symbol id="i-pdf" viewBox="0 0 32 32"><use href="#i-doc"/><text x="16.5" y="22.3" text-anchor="middle" font-family="Bricolage Grotesque, Avenir Next, sans-serif" font-weight="750" font-size="8.2" fill="currentColor">PDF</text></symbol>
-    <symbol id="i-si" viewBox="0 0 32 32"><use href="#i-doc"/><text x="16.5" y="22.6" text-anchor="middle" font-family="Bricolage Grotesque, Avenir Next, sans-serif" font-weight="750" font-size="9.6" fill="currentColor">SI</text></symbol>
-    <symbol id="i-cv" viewBox="0 0 32 32"><use href="#i-doc"/><text x="16.5" y="22.6" text-anchor="middle" font-family="Bricolage Grotesque, Avenir Next, sans-serif" font-weight="750" font-size="9.2" fill="currentColor">CV</text></symbol>
-    <symbol id="i-web" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="11.5"/><ellipse cx="16" cy="16" rx="5" ry="11.5"/><path d="M4.5 16h23M6.3 10h19.4M6.3 22h19.4"/></g></symbol>
-    <symbol id="i-scholar" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M2.5 12.5L16 6l13.5 6.5L16 19z"/><path d="M8.5 15.6v5.4c0 1.9 3.4 3.6 7.5 3.6s7.5-1.7 7.5-3.6v-5.4"/><path d="M29.5 12.5v7.5"/></g></symbol>
-  </defs>
-</svg>
 <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 
 <header class="site-header">
@@ -51,7 +41,6 @@
       <a href="#about" data-i18n="nav.about">About</a>
       <a href="#research" data-i18n="nav.research">Research</a>
       <a href="#publications" data-i18n="nav.pubs">Publications</a>
-      <a href="cv/" data-i18n="nav.cv">CV</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
     <button class="lang" type="button" id="lang-toggle" aria-label="Auf Deutsch wechseln" lang="de">Deutsch</button>
@@ -84,13 +73,9 @@
       <div class="about-grid">
         <div class="about-text">
           <p data-i18n="about.p1">I'm a doctoral researcher in the group of Dr. Bernd M. Schmidt at Heinrich Heine University Düsseldorf and a Kekulé Fellow of the Fonds der Chemischen Industrie.</p>
-          <p data-i18n="about.p2">My work starts from persistent organic radicals. When two of them meet, they form a carbon–carbon bond; heat or mechanical stress opens it again. That reversibility lets molecules correct their own mistakes as they assemble into macrocycles and porous cages, and it gives the finished materials the ability to change colour, respond to their surroundings and heal after damage.</p>
-          <p data-i18n="about.p3">I studied chemistry at HHU Düsseldorf, finishing my master's degree first in my class, and spent a research stay at Kyoto University's iCeMS with Prof. Aiko Fukazawa working on π-conjugated materials. In 2026 my work received the Angewandte Chemie Poster Award at ISMSC in Bordeaux.</p>
-          <p data-i18n="about.p4">I conceived my doctoral project independently and fund it through my fellowship. In the lab I supervise bachelor students, and I'm always glad to talk about radicals, cages or a possible collaboration.</p>
-          <div class="ico-row">
-            <a class="ico" href="cv/" data-i18n-aria="ico.cv" aria-label="Full curriculum vitae" title="Full curriculum vitae"><svg aria-hidden="true"><use href="#i-cv"/></svg></a>
-            <a class="ico" href="https://scholar.google.com/citations?user=TXHZ7csAAAAJ" data-i18n-aria="ico.scholar" aria-label="Google Scholar profile" title="Google Scholar profile"><svg aria-hidden="true"><use href="#i-scholar"/></svg></a>
-          </div>
+          <p data-i18n="about.p2">In my PhD I develop novel organic materials through dynamic carbon–carbon bond formation, based on the reversible recombination of persistent radicals. Because these bonds can open and close again, the materials respond to external stimuli, a route towards a new generation of adaptive, stimuli-responsive materials.</p>
+          <p data-i18n="about.p3">I conceived my doctoral project independently and fund it through my fellowship. In the lab I supervise bachelor students, and I'm always glad to talk about radicals, cages or a possible collaboration.</p>
+          <a class="btn-fill" href="cv/CV_Hartmann_Yannic.pdf" target="_blank" rel="noopener" data-i18n="about.cv">CV (PDF)</a>
         </div>
         <dl class="facts">
           <div><dt data-i18n="facts.pos">Position</dt><dd data-i18n="facts.posV">Doctoral researcher</dd></div>
@@ -141,7 +126,6 @@
           <p data-i18n="res.p3">Because the bonds stay dynamic even in the solid state, these materials change colour under heat or pressure and recover after mechanical damage.</p>
         </li>
       </ul>
-      <p class="outlook" data-i18n="res.outlook">Next, I'm extending the chemistry to more complex architectures built from several different building blocks, and to extended framework materials.</p>
     </div>
   </section>
 
@@ -149,123 +133,145 @@
     <div class="wrap">
       <div class="section-head">
         <h2 data-i18n="pub.h">Publications</h2>
-        <p data-i18n="pub.intro">Peer-reviewed articles, newest first. All of them are open access: open the PDF, the supporting information, or the article on the publisher's website.</p>
+        <p data-i18n="pub.intro">Peer-reviewed articles, newest first. Select a paper to read its abstract.</p>
       </div>
-    </div>
-    <ol class="pub-rows">
-      <li class="pub-row light" id="pub-6">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">6</p>
-          <h3>Dynamic Covalent Radical Recombination for the Assembly of Tuneable Responsive Porous Organic Cages</h3>
-          <p class="pub-cite"><u>Y. Hartmann</u>, R. Oestreich, Y. Wada, P. de Bary, M. Kawano, C. Janiak, B. M. Schmidt, <i>Angew. Chem. Int. Ed.</i> <b>2026</b>, <i>65</i>, e7638565; <i>Angew. Chem.</i> <b>2026</b>, <i>138</i>, e7638565.</p>
-          <p class="pub-note"><a href="https://www.supramolekularechemie.hhu.de/aktuelle-meldungen/news-detailansicht/dynamic-covalent-radical-recombination-for-the-assembly-of-organic-cages-in-angewandte-chemie" data-i18n="pub.news">Featured in the HHU news</a></p>
-          <div class="pub-icons">
-            <a class="ico" href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.7638565" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.7638565&amp;file=anie72547-sup-0001-SuppMat.pdf" data-i18n-aria="ico.si" aria-label="Supporting information (PDF)" title="Supporting information (PDF)"><svg aria-hidden="true"><use href="#i-si"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1002/anie.7638565" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <ol class="pubs-list">
+      <li class="pub">
+        <details class="pub-d" id="pub-6">
+          <summary>
+            <span class="pub-year">2026</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Dynamic Covalent Radical Recombination for the Assembly of Tuneable Responsive Porous Organic Cages</h3>
+              <span class="pub-cite"><u>Y. Hartmann</u>, R. Oestreich, Y. Wada, P. de Bary, M. Kawano, C. Janiak, B. M. Schmidt, <i>Angew. Chem. Int. Ed.</i> <b>2026</b>, <i>65</i>, e7638565; <i>Angew. Chem.</i> <b>2026</b>, <i>138</i>, e7638565.</span>
+            </span>
+            <span class="pub-thumb"><img src="assets/pubs/2026-angew-cages.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body has-fig">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>The construction of discrete organic cages via radical recombination offers a powerful yet underexplored route toward <i>stimuli</i>-responsive, C–C-linked molecular architectures. Here, we introduce aryldicyanomethyl radical dynamic covalent chemistry as a general strategy for the controlled assembly of porous organic cages. Systematic variation of a single substituent governs both radical and σ-bond stability as well as the resulting cage geometry, enabling precise, substituent-dependent control over cage topology and responsiveness. A thiophenoxy-substituted monomer <b>S</b> selectively affords a discrete Tri<sup>2</sup> dimer in 99% yield, whereas the <i>N</i>-methylaniline-substituted analogue <b>N</b> forms the tetrahedral Tri<sup>4</sup> tetramer in 83% yield. <b>N<sup>4</sup></b> possesses permanent porosity and pronounced selectivity for CO<sub>2</sub> and H<sub>2</sub> over CH<sub>4</sub> and N<sub>2</sub>, as confirmed by gas sorption experiments, arising from narrow pore apertures and strong host–guest interactions. Both cages display reversible mechano- and thermochromic behaviour. Moreover, the combination of a highly dynamic bond formation process with three-dimensional preorganisation of the cage enables efficient self-healing, which is markedly accelerated upon exposure to THF vapour. Collectively, these results establish radical recombination as an unexplored dynamic covalent motif for the synthesis of responsive organic cage architectures, enabling substituent-dependent fine-tuning of topology, stability, and material function through simple substituent modification.</p>
+            <a class="btn-fill" href="https://doi.org/10.1002/anie.7638565" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract and graphical abstract © 2026 The Authors, <i>Angew. Chem. Int. Ed.</i>, Wiley-VCH, CC BY 4.0.</p>
           </div>
+          <figure class="pub-fig"><img src="assets/pubs/2026-angew-cages.webp" width="1400" height="1160" alt="Graphical abstract: a tetrahedral porous organic cage assembled from aryldicyanomethyl radical building blocks" loading="lazy" decoding="async"></figure>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2026-angew-cages.png" width="400" height="330" alt="Graphical abstract: a tetrahedral porous organic cage assembled from aryldicyanomethyl radical building blocks" loading="lazy" decoding="async"></div>
-            <figcaption>Graphical abstract © 2026 The Authors. <i>Angew. Chem. Int. Ed.</i>, Wiley-VCH. CC BY 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-      <li class="pub-row dark" id="pub-5">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">5</p>
-          <h3>Ester-Aroyl-<i>S,N</i>-Ketene Acetals with Solid-State Luminescence: AIEgens from Sequential Three-Component Desymmetrization</h3>
-          <p class="pub-cite"><u>Y. Hartmann</u>,<sup>+</sup> A. El Abbassi,<sup>+</sup> B. Mayer, U. Resch-Genger, T. J. J. Müller, <i>Chem. Eur. J.</i> <b>2025</b>, <i>31</i>, e02071.</p>
-          <div class="pub-icons">
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/chem.202502071" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fchem.202502071&amp;file=chem70186-sup-0001-SuppMat.pdf" data-i18n-aria="ico.si" aria-label="Supporting information (PDF)" title="Supporting information (PDF)"><svg aria-hidden="true"><use href="#i-si"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1002/chem.202502071" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <li class="pub">
+        <details class="pub-d" id="pub-5">
+          <summary>
+            <span class="pub-year">2025</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Ester-Aroyl-<i>S,N</i>-Ketene Acetals with Solid-State Luminescence: AIEgens from Sequential Three-Component Desymmetrization</h3>
+              <span class="pub-cite"><u>Y. Hartmann</u>,<sup>+</sup> A. El Abbassi,<sup>+</sup> B. Mayer, U. Resch-Genger, T. J. J. Müller, <i>Chem. Eur. J.</i> <b>2025</b>, <i>31</i>, e02071.</span>
+            </span>
+            <span class="pub-thumb"><img src="assets/pubs/2025-chem-aiegens.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body has-fig">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>Di(hetero)aroyl dichlorides are desymmetrized upon sequential reaction with alcohols and 2-methyl <i>N</i>-benzyl thiazolium salts within the course of a one-pot three-component reaction yielding ester-substituted aroyl-<i>S,N</i>-ketene acetals under mild conditions in good yields. A prerequisite for the concise one-pot process is the different nucleophilicity of the alcohols and in situ generated <i>S,N</i>-ketene acetals. The resulting compounds are merocyanines with dominant charge-transfer absorption bands which are fluorescent in the solid state, but not in solution. In water/ethanol solvent mixtures of increasing water content, the water-insoluble dyes display typical aggregation-induced emission (AIE) characteristics. The water fraction inducing AIE as well as the emission color, and fluorescence quantum yield (Φ<sub>f</sub>) of the aggregated dyes can be controlled by the alcohol part of the ester moiety. Encapsulation into polystyrene nanoparticles can lead to a considerable increase of the fluorescence quantum yield Φ<sub>f</sub> to 30% as shown for a representatively chosen dye revealing the highest Φ<sub>f</sub> of 11% within the dye series in the water/ethanol mixtures and enabling the usage of these dyes as fluorescent reporters in aqueous environments.</p>
+            <a class="btn-fill" href="https://doi.org/10.1002/chem.202502071" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract and graphical abstract © 2025 The Authors, <i>Chem. Eur. J.</i>, Wiley-VCH, CC BY 4.0.</p>
           </div>
+          <figure class="pub-fig"><img src="assets/pubs/2025-chem-aiegens.webp" width="394" height="127" alt="Graphical abstract: one-pot desymmetrising synthesis of ester-aroyl-S,N-ketene acetals with aggregation-induced emission" loading="lazy" decoding="async"></figure>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2025-chem-aiegens.jpg" width="394" height="127" alt="Graphical abstract: one-pot desymmetrising synthesis of ester-aroyl-S,N-ketene acetals with aggregation-induced emission" loading="lazy" decoding="async"></div>
-            <figcaption>Graphical abstract © 2025 The Authors. <i>Chem. Eur. J.</i>, Wiley-VCH. CC BY 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-      <li class="pub-row light" id="pub-4">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">4</p>
-          <h3>Porous Organic Cages as Building Blocks for Framework Materials</h3>
-          <p class="pub-cite">M. Martínez-Fernández,<sup>+</sup> <u>Y. Hartmann</u>,<sup>+</sup> B. M. Schmidt, <i>Angew. Chem. Int. Ed.</i> <b>2025</b>, <i>64</i>, e202509618; <i>Angew. Chem.</i> <b>2025</b>, <i>137</i>, e202509618.</p>
-          <div class="pub-icons">
-            <a class="ico" href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.202509618" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1002/anie.202509618" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <li class="pub">
+        <details class="pub-d" id="pub-4">
+          <summary>
+            <span class="pub-year">2025</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Porous Organic Cages as Building Blocks for Framework Materials</h3>
+              <span class="pub-cite">M. Martínez-Fernández,<sup>+</sup> <u>Y. Hartmann</u>,<sup>+</sup> B. M. Schmidt, <i>Angew. Chem. Int. Ed.</i> <b>2025</b>, <i>64</i>, e202509618; <i>Angew. Chem.</i> <b>2025</b>, <i>137</i>, e202509618.</span>
+            </span>
+            <span class="pub-thumb"><img src="assets/pubs/2025-angew-review.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body has-fig">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>Confined nanospaces play a fundamental role in nature, inspiring synthetic analogues that emulate biological precision and efficiency. Among these, porous crystalline materials such as covalent organic frameworks (COFs), metal-organic frameworks (MOFs), and molecular cage compounds have emerged as powerful platforms for catalysis, separation, and energy storage. Recent developments highlight the potential of porous organic cages (POCs) as modular building blocks for the construction of advanced materials. In this Minireview, their integration into extended frameworks, such as Cage-COFs and Cage-MOFs, is described, as they allow precise control over porosity and enhance chemical robustness. These hybrids merge the structural regularity of COFs with the discrete functionality of cages, enabling the design of lightweight, hierarchically organised materials. In addition, cage-containing polymers and supramolecular frameworks are discussed. Collectively, these developments position POCs as versatile synthons for next-generation porous materials, unlocking pathways toward functional, adaptive, and recyclable architectures.</p>
+            <a class="btn-fill" href="https://doi.org/10.1002/anie.202509618" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract and graphical abstract © 2025 The Authors, <i>Angew. Chem. Int. Ed.</i>, Wiley-VCH, CC BY 4.0.</p>
           </div>
+          <figure class="pub-fig"><img src="assets/pubs/2025-angew-review.webp" width="1400" height="1144" alt="Graphical abstract: porous organic cages linked into cage-COFs, cage-MOFs, cage-POPs and cage-polymer materials" loading="lazy" decoding="async"></figure>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2025-angew-review.png" width="394" height="320" alt="Graphical abstract: porous organic cages linked into cage-COFs, cage-MOFs, cage-POPs and cage-polymer materials" loading="lazy" decoding="async"></div>
-            <figcaption>Graphical abstract © 2025 The Authors. <i>Angew. Chem. Int. Ed.</i>, Wiley-VCH. CC BY 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-      <li class="pub-row dark" id="pub-3">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">3</p>
-          <h3>Visible-Light Switchable Rings and Chains in Dynamic Covalent Imine Chemistry</h3>
-          <p class="pub-cite">J. Voss, <u>Y. Hartmann</u>, E. Nieland, A. Mix, B. M. Schmidt, <i>Chem. Eur. J.</i> <b>2025</b>, <i>31</i>, e202501047.</p>
-          <div class="pub-icons">
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/chem.202501047" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fchem.202501047&amp;file=chem202501047-sup-0001-SuppMat.pdf" data-i18n-aria="ico.si" aria-label="Supporting information (PDF)" title="Supporting information (PDF)"><svg aria-hidden="true"><use href="#i-si"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1002/chem.202501047" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <li class="pub">
+        <details class="pub-d" id="pub-3">
+          <summary>
+            <span class="pub-year">2025</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Visible-Light Switchable Rings and Chains in Dynamic Covalent Imine Chemistry</h3>
+              <span class="pub-cite">J. Voss, <u>Y. Hartmann</u>, E. Nieland, A. Mix, B. M. Schmidt, <i>Chem. Eur. J.</i> <b>2025</b>, <i>31</i>, e202501047.</span>
+            </span>
+            <span class="pub-thumb"><img src="assets/pubs/2025-chem-imine.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body has-fig">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>The self-assembly of red-light switchable, functionalised <i>ortho</i>-difluoroazobenzene isomers <i>E</i>-/<i>Z</i>-<b>A</b> with aliphatic diamines exhibits an alternating match/mismatch behaviour depending on the diamine's chain length. While even-numbered diamines exclusively form imine macrocycles with the <i>Z</i>-configured azobenzene isomer, odd-numbered diamines form photoswitchable, defined macrocycles. The formation of <i>Z</i>,<i>Z</i>-<b>A<sup>2</sup>X<sup>2</sup></b>-type macrocycles was demonstrated with butane-1,4- (<b>B</b>) and hexane-1,6-diamine (<b>H</b>), while additionally <i>E</i>,<i>E</i>-<b>A<sup>2</sup>X<sup>2</sup></b>-type macrocycles were obtained with propane-1,3- (<b>Pr</b>), pentane-1,5-diamine (<b>Pe</b>), and diethylene glycol bisamine (<b>O</b>), validated by single-crystal X-ray structures of <i>E</i>,<i>E</i>-<b>A<sup>2</sup>Pr<sup>2</sup></b> and <i>E</i>,<i>E</i>-<b>A<sup>2</sup>O<sup>2</sup></b>. The observed reactivity differences arise from the preferred conformations of the flexible diamines in solution, which alternate predictably with odd and even numbers of methylene groups, investigated by <sup>19</sup>F-DOSY NMR experiments, MALDI-MS measurements, and UV/Vis spectroscopy. These findings provide detailed insight into photoresponsive self-assembled systems and highlight the potential of azobenzenes in dynamic covalent chemistry, offering new opportunities for controlling structure and function in adaptive materials.</p>
+            <a class="btn-fill" href="https://doi.org/10.1002/chem.202501047" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract and graphical abstract © 2025 The Authors, <i>Chem. Eur. J.</i>, Wiley-VCH, CC BY 4.0.</p>
           </div>
+          <figure class="pub-fig"><img src="assets/pubs/2025-chem-imine.webp" width="1400" height="788" alt="Graphical abstract: red-light switchable azobenzene dialdehyde forming imine macrocycles with even- and odd-numbered diamines" loading="lazy" decoding="async"></figure>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2025-chem-imine.jpg" width="394" height="215" alt="Graphical abstract: imine macrocycles and chains interconverting under red light" loading="lazy" decoding="async"></div>
-            <figcaption>Graphical abstract © 2025 The Authors. <i>Chem. Eur. J.</i>, Wiley-VCH. CC BY 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-      <li class="pub-row light" id="pub-2">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">2</p>
-          <h3>Alkynylated and triazole-linked aroyl-<i>S,N</i>-ketene acetals: one-pot synthesis of solid-state emissive dyes with aggregation-induced enhanced emission characteristics</h3>
-          <p class="pub-cite">L. Biesen, <u>Y. Hartmann</u>, T. J. J. Müller, <i>Sci. Rep.</i> <b>2023</b>, <i>13</i>, 14399.</p>
-          <div class="pub-icons">
-            <a class="ico" href="https://www.nature.com/articles/s41598-023-41146-w.pdf" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-023-41146-w/MediaObjects/41598_2023_41146_MOESM1_ESM.pdf" data-i18n-aria="ico.si" aria-label="Supporting information (PDF)" title="Supporting information (PDF)"><svg aria-hidden="true"><use href="#i-si"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1038/s41598-023-41146-w" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <li class="pub">
+        <details class="pub-d" id="pub-2">
+          <summary>
+            <span class="pub-year">2023</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Alkynylated and triazole-linked aroyl-<i>S,N</i>-ketene acetals: one-pot synthesis of solid-state emissive dyes with aggregation-induced enhanced emission characteristics</h3>
+              <span class="pub-cite">L. Biesen, <u>Y. Hartmann</u>, T. J. J. Müller, <i>Sci. Rep.</i> <b>2023</b>, <i>13</i>, 14399.</span>
+            </span>
+            
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>Alkynylated aroyl-<i>S,N</i>-ketene acetals are readily synthesized in mostly excellent yields by a Sonogashira reaction resulting in a substance library of more than 20 examples. Upon expansion of the reaction sequence by deprotection and concatenating of the copper-click reaction in a one-pot fashion, a library of 11 triazole-ligated aroyl-<i>S,N</i>-ketene acetals is readily accessible. All derivatives show pronounced solid-state emission and aggregation-induced emission properties depending on the nature of the alkynyl or the triazole substituents.</p>
+            <a class="btn-fill" href="https://doi.org/10.1038/s41598-023-41146-w" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract © 2023 The Authors, <i>Sci. Rep.</i>, Springer Nature, CC BY 4.0.</p>
           </div>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2023-sci-rep.png" width="1120" height="300" alt="Reaction scheme: Sonogashira coupling of iodo-substituted aroyl-S,N-ketene acetals to alkynylated dyes" loading="lazy" decoding="async"></div>
-            <figcaption>Reaction scheme cropped from Fig. 1, © 2023 The Authors. <i>Sci. Rep.</i>, Springer Nature. CC BY 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-      <li class="pub-row dark" id="pub-1">
-        <div class="wrap">
-          <div class="pub-text">
-          <p class="pub-num">1</p>
-          <h3>Diaroyl-<i>S,N</i>-ketene Acetals: Red-Shifted Solid-State and Aggregation-Induced Emitters from a One-Pot Synthesis</h3>
-          <p class="pub-cite">L. Biesen, <u>Y. Hartmann</u>, T. J. J. Müller, <i>Chem. Eur. J.</i> <b>2023</b>, <i>29</i>, e202301908.</p>
-          <div class="pub-icons">
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/chem.202301908" data-i18n-aria="ico.pdf" aria-label="PDF of the article" title="PDF of the article"><svg aria-hidden="true"><use href="#i-pdf"/></svg></a>
-            <a class="ico" href="https://chemistry-europe.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fchem.202301908&amp;file=chem202301908-sup-0001-misc_information.pdf" data-i18n-aria="ico.si" aria-label="Supporting information (PDF)" title="Supporting information (PDF)"><svg aria-hidden="true"><use href="#i-si"/></svg></a>
-            <a class="ico" href="https://doi.org/10.1002/chem.202301908" data-i18n-aria="ico.web" aria-label="Article on the publisher's website" title="Article on the publisher's website"><svg aria-hidden="true"><use href="#i-web"/></svg></a>
+      <li class="pub">
+        <details class="pub-d" id="pub-1">
+          <summary>
+            <span class="pub-year">2023</span>
+            <span class="pub-head">
+              <h3 class="pub-title">Diaroyl-<i>S,N</i>-ketene Acetals: Red-Shifted Solid-State and Aggregation-Induced Emitters from a One-Pot Synthesis</h3>
+              <span class="pub-cite">L. Biesen, <u>Y. Hartmann</u>, T. J. J. Müller, <i>Chem. Eur. J.</i> <b>2023</b>, <i>29</i>, e202301908.</span>
+            </span>
+            <span class="pub-thumb"><img src="assets/pubs/2023-chem-diaroyl.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pub-toggle"><svg viewBox="0 0 28 28" aria-hidden="true"><path class="hx" d="M14 3.2l9.35 5.4v10.8L14 24.8l-9.35-5.4V8.6z"/><circle class="dot" cx="14" cy="14" r="3.4"/></svg></span>
+          </summary>
+          <div class="pub-body has-fig">
+          <div class="pub-abs">
+            <p class="pub-label" data-i18n="pub.abstract">Abstract</p>
+            <p>Symmetric and unsymmetric diaroyl-<i>S,N</i>-ketene acetals can be readily accessed in consecutive syntheses in good to excellent yields by exploiting the inherent nucleophilic character of the methine position. Different aroyl-<i>S,N</i>-ketene acetals as well as acid chlorides yield a library of 19 diaroyl compounds with substitution and linker pattern-tunable emission properties, leading to a significant red-shift of emission in the solid and aggregated state, which was thoroughly investigated. Additionally, the stability of the luminescent aggregates is highly increased. In a follow-up one-pot procedure, pyrazolo-<i>S,N</i>-ketene acetals can easily be accessed employing a nucleophilic cyclocondensation.</p>
+            <a class="btn-fill" href="https://doi.org/10.1002/chem.202301908" target="_blank" rel="noopener" data-i18n="pub.read">Read the paper</a>
+            <p class="pub-credit">Abstract and graphical abstract © 2023 The Authors, <i>Chem. Eur. J.</i>, Wiley-VCH, CC BY-NC-ND 4.0.</p>
           </div>
+          <figure class="pub-fig"><img src="assets/pubs/2023-chem-diaroyl.webp" width="500" height="454" alt="Graphical abstract: aroylation of aroyl-S,N-ketene acetals gives red-shifted solid-state and AIE emitters" loading="lazy" decoding="async"></figure>
           </div>
-          <figure class="pub-figure">
-            <div class="pub-frame"><img src="assets/pubs/2023-chem-diaroyl.jpg" width="624" height="567" alt="Graphical abstract: aroylation of aroyl-S,N-ketene acetals gives red-shifted solid-state and AIE emitters" loading="lazy" decoding="async"></div>
-            <figcaption>Graphical abstract © 2023 The Authors. <i>Chem. Eur. J.</i>, Wiley-VCH. CC BY-NC-ND 4.0.</figcaption>
-          </figure>
-        </div>
+        </details>
       </li>
-    </ol>
-    <div class="wrap pubs-foot">
-      <span data-i18n="pub.legend"><sup>+</sup> These authors contributed equally.</span>
-      <span data-i18n="pub.license">Graphical abstracts are reproduced under the Creative Commons licences of the open-access articles; credits below each image.</span>
-      <span><a href="https://scholar.google.com/citations?user=TXHZ7csAAAAJ" data-i18n="pub.scholar">All publications on Google Scholar</a></span>
+      </ol>
+      <div class="pubs-foot">
+        <span data-i18n="pub.legend"><sup>+</sup> These authors contributed equally.</span>
+        <span><a href="https://scholar.google.com/citations?user=TXHZ7csAAAAJ" target="_blank" rel="noopener" data-i18n="pub.scholar">All publications on Google Scholar</a></span>
+      </div>
     </div>
   </section>
 
@@ -319,7 +325,6 @@
     "nav.about": "Über mich",
     "nav.research": "Forschung",
     "nav.pubs": "Publikationen",
-    "nav.cv": "Lebenslauf",
     "nav.contact": "Kontakt",
     "hero.role": "Doktorand in der Supramolekularen Chemie, Heinrich-Heine-Universität Düsseldorf",
     "hero.lead": "Ich entwickle stimuli-responsive organische Materialien aus Kohlenstoff–Kohlenstoff-Bindungen, die auf Kommando brechen und sich neu bilden – und baue daraus Makrozyklen, Käfige und mehr.",
@@ -329,14 +334,9 @@
     "hero.hintTouch": "Jeder leuchtende Punkt ist ein freies Radikal. Wischen Sie über den Hintergrund, um ihn zu erhitzen: Bindungen brechen, Radikale leuchten auf und finden beim Abkühlen wieder zusammen.",
     "about.h": "Über mich",
     "about.p1": "Ich bin Doktorand im Arbeitskreis von Dr. Bernd M. Schmidt an der Heinrich-Heine-Universität Düsseldorf und Kekulé-Stipendiat des Fonds der Chemischen Industrie.",
-    "about.p2": "Ausgangspunkt meiner Arbeit sind persistente organische Radikale. Treffen zwei von ihnen aufeinander, bilden sie eine Kohlenstoff–Kohlenstoff-Bindung; Wärme oder mechanische Belastung öffnen sie wieder. Durch diese Reversibilität korrigieren Moleküle ihre eigenen Fehler, während sie sich zu Makrozyklen und porösen Käfigen zusammenlagern – und die fertigen Materialien können ihre Farbe ändern, auf ihre Umgebung reagieren und sich nach Beschädigung selbst heilen.",
-    "about.p3": "Ich habe an der HHU Düsseldorf Chemie studiert, meinen Master als Jahrgangsbester abgeschlossen und während eines Forschungsaufenthalts am iCeMS der Universität Kyoto bei Prof. Aiko Fukazawa an π-konjugierten Materialien gearbeitet. 2026 wurde meine Arbeit auf der ISMSC in Bordeaux mit dem Angewandte Chemie Poster Award ausgezeichnet.",
-    "about.p4": "Mein Promotionsprojekt habe ich eigenständig konzipiert und finanziere es über mein Stipendium. Im Labor betreue ich Bachelorstudierende und spreche jederzeit gern über Radikale, Käfige oder eine mögliche Kooperation.",
-    "ico.cv": "Ausführlicher Lebenslauf",
-    "ico.scholar": "Google-Scholar-Profil",
-    "ico.pdf": "PDF des Artikels",
-    "ico.si": "Supporting Information (PDF)",
-    "ico.web": "Artikel auf der Verlagsseite",
+    "about.p2": "In meiner Promotion entwickle ich neuartige organische Materialien über dynamische Kohlenstoff–Kohlenstoff-Bindungsknüpfung, basierend auf der reversiblen Rekombination persistenter Radikale. Weil sich diese Bindungen öffnen und wieder schließen können, reagieren die Materialien auf äußere Reize – ein Weg zu einer neuen Generation adaptiver, stimuli-responsiver Materialien.",
+    "about.p3": "Mein Promotionsprojekt habe ich eigenständig konzipiert und finanziere es über mein Stipendium. Im Labor betreue ich Bachelorstudierende und spreche jederzeit gern über Radikale, Käfige oder eine mögliche Kooperation.",
+    "about.cv": "Lebenslauf (PDF)",
     "facts.pos": "Position",
     "facts.posV": "Doktorand",
     "facts.group": "Arbeitskreis",
@@ -353,12 +353,11 @@
     "res.p2": "Mehrere Radikalzentren in einem Baustein machen aus dieser Paarung eine Selbstorganisation. Das System korrigiert seine Fehler selbst und findet zu definierten Makrozyklen und Käfigen, darunter Käfige mit permanenter Porosität und selektiver Gasaufnahme.",
     "res.t3": "Materialien, die reagieren und sich selbst heilen",
     "res.p3": "Weil die Bindungen auch im Festkörper dynamisch bleiben, ändern diese Materialien unter Wärme oder Druck ihre Farbe und erholen sich nach mechanischer Beschädigung.",
-    "res.outlook": "Als Nächstes übertrage ich die Chemie auf komplexere Architekturen aus mehreren unterschiedlichen Bausteinen und auf ausgedehnte Gerüstmaterialien.",
     "pub.h": "Publikationen",
-    "pub.intro": "Begutachtete Fachartikel, die neuesten zuerst. Alle sind Open Access: Öffnen Sie das PDF, die Supporting Information oder den Artikel auf der Verlagsseite.",
-    "pub.news": "Vorgestellt in den HHU-News",
+    "pub.intro": "Begutachtete Fachartikel, die neuesten zuerst. Wählen Sie ein Paper aus, um den Abstract zu lesen.",
+    "pub.abstract": "Abstract",
+    "pub.read": "Zum Paper",
     "pub.legend": "<sup>+</sup> Gleichberechtigte Erstautorenschaft.",
-    "pub.license": "Die Graphical Abstracts werden unter den Creative-Commons-Lizenzen der Open-Access-Artikel wiedergegeben; die Angaben stehen unter jedem Bild.",
     "pub.scholar": "Alle Publikationen auf Google Scholar",
     "met.h": "Methoden",
     "met.intro": "Radikale und dynamische Bindungen muss man von mehreren Seiten gleichzeitig verfolgen. Diese Techniken nutze ich im Laboralltag.",
